@@ -1,0 +1,69 @@
+{
+  "id": "ejust-csit",
+  "name": "E-JUST CSIT courses",
+  "source": "CSIT Student Handbook 2024, Table 7",
+  "notes": [
+    "F and WF count as 1.0 grade points in GPA and CGPA.",
+    "W, FW and I do not count in GPA.",
+    "When a course is repeated, only the most recent grade counts in CGPA."
+  ],
+  "retakeReplacesEarlier": true,
+  "grades": [
+    {
+      "letter": "A+",
+      "points": 4.0,
+      "minPercent": 95
+    },
+    {
+      "letter": "A",
+      "points": 3.7,
+      "minPercent": 90
+    },
+    {
+      "letter": "B+",
+      "points": 3.3,
+      "minPercent": 85
+    },
+    {
+      "letter": "B",
+      "points": 3.0,
+      "minPercent": 80
+    },
+    {
+      "letter": "C+",
+      "points": 2.7,
+      "minPercent": 75
+    },
+    {
+      "letter": "C",
+      "points": 2.3,
+      "minPercent": 70
+    },
+    {
+      "letter": "D+",
+      "points": 2.0,
+      "minPercent": 65
+    },
+    {
+      "letter": "D",
+      "points": 1.7,
+      "minPercent": 60
+    },
+    {
+      "letter": "F",
+      "points": 1.0,
+      "minPercent": 0
+    }
+  ],
+  "specialGrades": [
+    {
+      "letter": "WF",
+      "points": 1.0
+    }
+  ],
+  "nonGpaGrades": [
+    "W",
+    "FW",
+    "I"
+  ]
+}

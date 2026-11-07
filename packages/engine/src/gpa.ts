@@ -9,7 +9,8 @@ export interface GpaSummary {
 
 function pointsFor(grade: string, scale: GradeScale): number | null {
   if (scale.nonGpaGrades.includes(grade)) return null;
-  const band = scale.grades.find((g) => g.letter === grade);
+  const band =
+    scale.grades.find((g) => g.letter === grade) ?? scale.specialGrades?.find((g) => g.letter === grade);
   if (!band) throw new Error(`Unknown grade "${grade}"`);
   return band.points;
 }
@@ -31,7 +32,7 @@ export const semesterGpa = summarize;
 /**
  * Cumulative GPA over semesters in chronological order. With
  * `retakeReplacesEarlier`, only the latest graded attempt of each course code
- * counts. A later withdrawal does not erase an earlier grade.
+ * counts (WF included). A later W or FW does not erase an earlier grade.
  */
 export function cumulative(semesters: Semester[], scale: GradeScale): GpaSummary {
   if (!scale.retakeReplacesEarlier) {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { courseMarks, courseTotal, EJUST_SCALE, letterFor, requiredMark, requiredMarksByLetter } from "../src";
+import { courseMarks, courseTotal, EJUST_CSIT_SCALE, EJUST_LIBERAL_ARTS_SCALE, letterFor, requiredMark, requiredMarksByLetter } from "../src";
 
 const STD = { class: 0.15, midterm: 0.3, lab: 0.15, final: 0.4 };
 
@@ -21,11 +21,11 @@ describe("courseTotal", () => {
 
 describe("letterFor", () => {
   it("picks the highest band reached", () => {
-    expect(letterFor(100, EJUST_SCALE).letter).toBe("A+");
-    expect(letterFor(0, EJUST_SCALE).letter).toBe("F");
-    const b = EJUST_SCALE.grades.find((g) => g.letter === "B")!;
-    expect(letterFor(b.minPercent, EJUST_SCALE).letter).toBe("B");
-    expect(letterFor(b.minPercent - 0.01, EJUST_SCALE).letter).toBe("C+");
+    expect(letterFor(100, EJUST_CSIT_SCALE).letter).toBe("A+");
+    expect(letterFor(0, EJUST_CSIT_SCALE).letter).toBe("F");
+    const b = EJUST_CSIT_SCALE.grades.find((g) => g.letter === "B")!;
+    expect(letterFor(b.minPercent, EJUST_CSIT_SCALE).letter).toBe("B");
+    expect(letterFor(b.minPercent - 0.01, EJUST_CSIT_SCALE).letter).toBe("C+");
   });
 });
 
@@ -45,8 +45,19 @@ describe("requiredMark", () => {
     expect(requiredMark({ ...sofar, final: 100 }, STD, 70)).toBeCloseTo(58.75);
   });
   it("lists every letter", () => {
-    const rows = requiredMarksByLetter(sofar, STD, EJUST_SCALE);
+    const rows = requiredMarksByLetter(sofar, STD, EJUST_CSIT_SCALE);
     expect(rows.map((r) => r.letter)).toEqual(["A+", "A", "B+", "B", "C+", "C", "D+", "D", "F"]);
     expect(rows.at(-1)!.required).toBe(0);
+  });
+});
+
+describe("handbook cutoffs", () => {
+  it("uses 60% to pass CSIT courses and 50% for liberal arts", () => {
+    expect(letterFor(59.9, EJUST_CSIT_SCALE).letter).toBe("F");
+    expect(letterFor(60, EJUST_CSIT_SCALE).letter).toBe("D");
+    expect(letterFor(95, EJUST_CSIT_SCALE).letter).toBe("A+");
+    expect(letterFor(94.9, EJUST_CSIT_SCALE).letter).toBe("A");
+    expect(letterFor(50, EJUST_LIBERAL_ARTS_SCALE).letter).toBe("D");
+    expect(letterFor(49.9, EJUST_LIBERAL_ARTS_SCALE).letter).toBe("F");
   });
 });

@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { assertWeights, CSC_PROGRAM, EJUST_SCALE, isSlot } from "../src";
+import { assertWeights, CSC_PROGRAM, GRADE_SCALES, isSlot, scaleFor } from "../src";
 
-describe("E-JUST grade scale", () => {
+describe.each(Object.values(GRADE_SCALES))("grade scale $id", (scale) => {
   it("has unique letters and descending cutoffs", () => {
-    const letters = EJUST_SCALE.grades.map((g) => g.letter);
+    const letters = scale.grades.map((g) => g.letter);
     expect(new Set(letters).size).toBe(letters.length);
-    const cut = EJUST_SCALE.grades.map((g) => g.minPercent);
+    const cut = scale.grades.map((g) => g.minPercent);
     expect([...cut].sort((a, b) => b - a)).toEqual(cut);
     expect(cut.at(-1)).toBe(0);
   });
@@ -39,6 +39,29 @@ describe("CSC study plan", () => {
         const pc = courses.find((x) => !isSlot(x) && x.code === pre);
         expect(pc, `${c.code} needs ${pre}`).toBeDefined();
         expect(pc!.level, `${c.code} needs ${pre}`).toBeLessThan(c.level);
+      }
+    }
+  });
+});
+
+describe("CSC elective tables", () => {
+  const tables = Object.entries(CSC_PROGRAM.electives);
+  it("covers every elective slot in the plan", () => {
+    for (const c of CSC_PROGRAM.courses) {
+      if (isSlot(c)) expect(CSC_PROGRAM.electives[c.electiveTable], c.title).toBeDefined();
+    }
+  });
+  it("has enough slot credits for each table", () => {
+    for (const [name, t] of tables) {
+      const slots = CSC_PROGRAM.courses.filter((c) => isSlot(c) && c.electiveTable === name);
+      expect(slots.reduce((s, c) => s + c.credits, 0), name).toBe(t.requiredCredits);
+    }
+  });
+  it("has valid weights and grade scales", () => {
+    for (const [, t] of tables) {
+      for (const c of t.courses) {
+        expect(() => assertWeights(c.weights), c.code).not.toThrow();
+        expect(() => scaleFor(c, CSC_PROGRAM), c.code).not.toThrow();
       }
     }
   });

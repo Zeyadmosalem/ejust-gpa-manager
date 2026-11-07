@@ -16,7 +16,9 @@ export interface GradeBand {
 export interface GradeScale {
   id: string;
   grades: GradeBand[];
-  /** Letters that never count toward GPA hours (withdrawals, pass/fail, incomplete). */
+  /** Grades with points but no percentage band, such as WF (withdrawn failing). */
+  specialGrades?: { letter: string; points: number }[];
+  /** Grades that never count toward GPA hours (W, FW, I). */
   nonGpaGrades: string[];
   retakeReplacesEarlier: boolean;
 }
