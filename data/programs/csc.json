@@ -1,0 +1,1917 @@
+{
+  "id": "csc",
+  "name": "Computer Science (CSC)",
+  "school": "E-JUST",
+  "source": "CSIT Student Handbook 2024, Table 10: Study Plan of CSC Program (134 Credits)",
+  "totalCredits": 134,
+  "marksPerCredit": 100,
+  "gradeScale": "ejust-csit",
+  "levelCredits": {
+    "1": 17,
+    "2": 17,
+    "3": 18,
+    "4": 17,
+    "5": 15,
+    "6": 18,
+    "7": 17,
+    "8": 15
+  },
+  "notes": [
+    "LRA courses use the ejust-liberal-arts scale (50% to pass).",
+    "LRA 405 grading follows Table 10 (class 0.3, midterm 0.3, final 0.4); Table 2 of the handbook lists it as class work only."
+  ],
+  "courses": [
+    {
+      "code": "LRA101",
+      "title": "Japanese Culture",
+      "credits": 2,
+      "level": 1,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 1
+      },
+      "examHours": null,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "code": "LRA401",
+      "title": "Japanese Language (1)",
+      "credits": 1,
+      "level": 1,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "code": "MTH111",
+      "title": "Mathematics (1)",
+      "credits": 3,
+      "level": 1,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "PHY113",
+      "title": "Physics (1)",
+      "credits": 3,
+      "level": 1,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC111",
+      "title": "Fundamentals of Programming",
+      "credits": 3,
+      "level": 1,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (1)",
+      "credits": 2,
+      "level": 1,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "ECE111",
+      "title": "Digital Logic Design",
+      "credits": 3,
+      "level": 1,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "LRA402",
+      "title": "Japanese Language (2)",
+      "credits": 1,
+      "level": 2,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "LRA401"
+      ],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "code": "MTH121",
+      "title": "Mathematics (2)",
+      "credits": 3,
+      "level": 2,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [
+        "MTH111"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "PHY123",
+      "title": "Physics (2)",
+      "credits": 3,
+      "level": 2,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "PHY113"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC121",
+      "title": "Data Structures and Algorithms",
+      "credits": 3,
+      "level": 2,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC111"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (2)",
+      "credits": 2,
+      "level": 2,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "CSC122",
+      "title": "Advanced Programming",
+      "credits": 3,
+      "level": 2,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC111"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "LRA405",
+      "title": "Key Skill Seminar (1)",
+      "credits": 2,
+      "level": 2,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 2,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "code": "LRA403",
+      "title": "Japanese Language (3)",
+      "credits": 1,
+      "level": 3,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "LRA402"
+      ],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (3)",
+      "credits": 2,
+      "level": 3,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "MTH212",
+      "title": "Probability and Statistics",
+      "credits": 3,
+      "level": 3,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [
+        "MTH121"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-science",
+      "title": "FR BAS Elective (1)",
+      "credits": 3,
+      "level": 3,
+      "electiveTable": "Table 5"
+    },
+    {
+      "code": "CSC211",
+      "title": "Software Engineering",
+      "credits": 3,
+      "level": 3,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-computing",
+      "title": "FR BCS Elective (1)",
+      "credits": 3,
+      "level": 3,
+      "electiveTable": "Table 7"
+    },
+    {
+      "code": "CSE214",
+      "title": "Computer Organization",
+      "credits": 3,
+      "level": 3,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "ECE111"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "LRA404",
+      "title": "Japanese Language (4)",
+      "credits": 1,
+      "level": 4,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "LRA403"
+      ],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "code": "LRA208",
+      "title": "Safety and Risk Management",
+      "credits": 2,
+      "level": 4,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 1
+      },
+      "examHours": null,
+      "gradeScale": "ejust-liberal-arts"
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (4)",
+      "credits": 2,
+      "level": 4,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "CSE312",
+      "title": "Discrete Mathematics",
+      "credits": 3,
+      "level": 4,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [
+        "MTH121"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-science",
+      "title": "FR BAS Elective (2)",
+      "credits": 3,
+      "level": 4,
+      "electiveTable": "Table 5"
+    },
+    {
+      "slot": true,
+      "category": "basic-computing",
+      "title": "FR BCS Elective (2)",
+      "credits": 3,
+      "level": 4,
+      "electiveTable": "Table 7"
+    },
+    {
+      "code": "CSC221",
+      "title": "Operating Systems",
+      "credits": 3,
+      "level": 4,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSE214"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CNC311",
+      "title": "Computer Networks",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "MTH212",
+        "CSC121"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "AID312",
+      "title": "Intelligent Systems",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "MTH121",
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CNC314",
+      "title": "Database Systems",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-computing",
+      "title": "FR BCS Elective (3)",
+      "credits": 3,
+      "level": 5,
+      "electiveTable": "Table 7"
+    },
+    {
+      "code": "CSC314",
+      "title": "Software Modeling and Analysis",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC321",
+      "title": "Software Design",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC314"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC322",
+      "title": "Requirements Analysis and Specification",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC211"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC323",
+      "title": "Software Process",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC211"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC324",
+      "title": "Human Computer Interaction",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC121"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (1)",
+      "credits": 3,
+      "level": 6,
+      "electiveTable": "Table 9"
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (2)",
+      "credits": 3,
+      "level": 6,
+      "electiveTable": "Table 9"
+    },
+    {
+      "code": "CSC410",
+      "title": "Software Quality",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC323"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC411",
+      "title": "Software Verification and Validation",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC321"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC412",
+      "title": "Software Security",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC321"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC414",
+      "title": "Game Design and Development",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC211"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (3)",
+      "credits": 3,
+      "level": 7,
+      "electiveTable": "Table 9"
+    },
+    {
+      "code": "CSC413",
+      "title": "Graduation Project I",
+      "credits": 2,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 8
+      },
+      "prerequisites": [],
+      "weights": {
+        "lab": 0.7,
+        "oral": 0.3
+      },
+      "examHours": null
+    },
+    {
+      "code": "CSC424",
+      "title": "Graduation Project II",
+      "credits": 4,
+      "level": 8,
+      "category": "core",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 16
+      },
+      "prerequisites": [
+        "CSC413"
+      ],
+      "weights": {
+        "lab": 0.7,
+        "oral": 0.3
+      },
+      "examHours": null
+    },
+    {
+      "code": "CSC423",
+      "title": "Field Training (2 Modules)",
+      "credits": 5,
+      "level": 8,
+      "category": "core",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 20
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.7,
+        "oral": 0.3
+      },
+      "examHours": null
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (4)",
+      "credits": 3,
+      "level": 8,
+      "electiveTable": "Table 9"
+    },
+    {
+      "code": "CSC422",
+      "title": "Fundamentals of Cloud Computing",
+      "credits": 3,
+      "level": 8,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CNC311"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    }
+  ],
+  "electives": {
+    "Table 3": {
+      "title": "Elective Courses of University Requirements (Liberal Arts)",
+      "requiredCredits": 8,
+      "courses": [
+        {
+          "code": "LRA102",
+          "title": "Introduction to Philosophy",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA103",
+          "title": "Fine Arts Appreciation, Drawings and Paintings",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA104",
+          "title": "Music and Technology",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA105",
+          "title": "Theater and Drama",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA106",
+          "title": "Physical Education",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA107",
+          "title": "Selected Topics in Japanese Arts",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA108",
+          "title": "Art and Architecture of Ancient Egypt",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA109",
+          "title": "Introduction to Cultural Anthropology",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA110",
+          "title": "Modern Egyptian History",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA202",
+          "title": "Peace Studies",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA203",
+          "title": "Entrepreneurship and Innovation",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA204",
+          "title": "Public Policy",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA205",
+          "title": "Egyptian Business Regulations",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA206",
+          "title": "Sociology of Work",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA207",
+          "title": "African and Middle Eastern Studies",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA201",
+          "title": "Introduction to Economics and Sustainable Development",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA302",
+          "title": "Introduction to Life Sciences",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA303",
+          "title": "Introduction to Environmental Biology",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA304",
+          "title": "Water and Politics in Africa and Middle East",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA305",
+          "title": "Astronomy",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA306",
+          "title": "Natural Resources and Sustainability",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA406",
+          "title": "Key Skills Seminar (2)",
+          "credits": 2,
+          "prerequisites": [
+            "LRA405"
+          ],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA407",
+          "title": "English Language",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "lab": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA408",
+          "title": "Arabic Language",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "lab": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA409",
+          "title": "Research Methods",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA410",
+          "title": "Fundamentals of Communication",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "LRA411",
+          "title": "Transformational Leadership",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "class": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 0
+          },
+          "gradeScale": "ejust-liberal-arts"
+        },
+        {
+          "code": "CSC316",
+          "title": "Understanding Computers",
+          "credits": 2,
+          "prerequisites": [],
+          "weights": {
+            "lab": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 0,
+            "tutorial": 0,
+            "lab": 2
+          }
+        }
+      ]
+    },
+    "Table 5": {
+      "title": "Elective Courses of FR (Mathematics and Basic Science)",
+      "requiredCredits": 6,
+      "courses": [
+        {
+          "code": "CHM113",
+          "title": "Chemistry I",
+          "credits": 3,
+          "prerequisites": [],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "BIO111",
+          "title": "Fundamentals of Life Science",
+          "credits": 3,
+          "prerequisites": [],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "ACM215",
+          "title": "Ordinary Differential Equations",
+          "credits": 3,
+          "prerequisites": [
+            "MTH121"
+          ],
+          "weights": {
+            "class": 0.3,
+            "midterm": 0.3,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 2,
+            "lab": 0
+          }
+        },
+        {
+          "code": "ACM323",
+          "title": "Applied Numerical Methods",
+          "credits": 3,
+          "prerequisites": [
+            "MTH111"
+          ],
+          "weights": {
+            "class": 0.3,
+            "midterm": 0.3,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 2,
+            "lab": 0
+          }
+        },
+        {
+          "code": "ACM422",
+          "title": "Operations Research",
+          "credits": 3,
+          "prerequisites": [
+            "MTH121"
+          ],
+          "weights": {
+            "class": 0.3,
+            "midterm": 0.3,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 2,
+            "lab": 0
+          }
+        },
+        {
+          "code": "ECE223",
+          "title": "Signals and Systems",
+          "credits": 3,
+          "prerequisites": [
+            "MTH111"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        }
+      ]
+    },
+    "Table 7": {
+      "title": "Elective Courses of FR (Basic Computing Science)",
+      "requiredCredits": 9,
+      "courses": [
+        {
+          "code": "CSC112",
+          "title": "Project Management",
+          "credits": 3,
+          "prerequisites": [],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CNC111",
+          "title": "Networks and Web Programming",
+          "credits": 3,
+          "prerequisites": [
+            "CSC122"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC113",
+          "title": "Compiler Design",
+          "credits": 3,
+          "prerequisites": [
+            "CSC122",
+            "CSC311"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC114",
+          "title": "Algorithms Analysis and Design",
+          "credits": 3,
+          "prerequisites": [
+            "CSC121"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC317",
+          "title": "Computer Graphics and Visualization",
+          "credits": 3,
+          "prerequisites": [
+            "MTH121"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "ECE213",
+          "title": "Introduction to Electronics Engineering",
+          "credits": 3,
+          "prerequisites": [],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "AID111",
+          "title": "Data Science",
+          "credits": 3,
+          "prerequisites": [],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "ECE324",
+          "title": "Digital Signal Processing",
+          "credits": 3,
+          "prerequisites": [
+            "MTH121"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CNC222",
+          "title": "Introduction to Embedded Systems",
+          "credits": 3,
+          "prerequisites": [
+            "CSE214"
+          ],
+          "weights": {
+            "midterm": 0.3,
+            "lab": 0.3,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "AID221",
+          "title": "Introduction to Artificial Intelligence",
+          "credits": 3,
+          "prerequisites": [
+            "MTH211"
+          ],
+          "weights": {
+            "midterm": 0.3,
+            "lab": 0.3,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CNC223",
+          "title": "Computer Architecture",
+          "credits": 3,
+          "prerequisites": [
+            "CSE214"
+          ],
+          "weights": {
+            "class": 0.3,
+            "midterm": 0.3,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 2,
+            "lab": 0
+          }
+        },
+        {
+          "code": "CSC315",
+          "title": "Seminar and Project-Based Learning on CSIT",
+          "credits": 3,
+          "prerequisites": [],
+          "weights": {
+            "lab": 1
+          },
+          "examHours": null,
+          "hours": {
+            "lecture": 0,
+            "tutorial": 0,
+            "lab": 4
+          }
+        }
+      ]
+    },
+    "Table 9": {
+      "title": "Elective Courses of CSC (Program Requirements)",
+      "requiredCredits": 12,
+      "courses": [
+        {
+          "code": "CSC415",
+          "title": "New Trends in Computer Science",
+          "credits": 3,
+          "prerequisites": [
+            "CSC211"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC421",
+          "title": "New Trends in Game Design",
+          "credits": 3,
+          "prerequisites": [
+            "CSC414"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC417",
+          "title": "Software Maintenance and Evolution",
+          "credits": 3,
+          "prerequisites": [
+            "CSC321"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC418",
+          "title": "Mobile Software Engineering",
+          "credits": 3,
+          "prerequisites": [
+            "CNC311"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC419",
+          "title": "Strategy, Management and Acquisition",
+          "credits": 3,
+          "prerequisites": [
+            "CSC122"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC425",
+          "title": "Soft Computing",
+          "credits": 3,
+          "prerequisites": [
+            "AID312"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC426",
+          "title": "Distributed Systems",
+          "credits": 3,
+          "prerequisites": [
+            "CSE214",
+            "CSC221"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC427",
+          "title": "Design Patterns",
+          "credits": 3,
+          "prerequisites": [
+            "CSC122",
+            "CNC314"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC428",
+          "title": "Multimedia Communications",
+          "credits": 3,
+          "prerequisites": [
+            "CSC412"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "CSC429",
+          "title": "Embedded Systems",
+          "credits": 3,
+          "prerequisites": [
+            "CSE214"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        },
+        {
+          "code": "AID426",
+          "title": "Robotics",
+          "credits": 3,
+          "prerequisites": [
+            "MTH121"
+          ],
+          "weights": {
+            "class": 0.15,
+            "midterm": 0.3,
+            "lab": 0.15,
+            "final": 0.4
+          },
+          "examHours": 3,
+          "hours": {
+            "lecture": 2,
+            "tutorial": 1,
+            "lab": 2
+          }
+        }
+      ]
+    }
+  }
+}

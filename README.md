@@ -2,7 +2,7 @@
 
 A free web service that helps students at the Egypt-Japan University of Science and Technology (E-JUST) track their grades, plan their degree, and see what they need to hit a target GPA.
 
-> **Status:** planning. This README is the project plan. No code yet.
+> **Status:** M0 and M1 in progress. The GPA engine lives in `packages/engine` and the CSC study plan in `data/programs/csc.json`. Run `npm install && npm test`.
 
 This is an independent student project. It is not affiliated with or endorsed by E-JUST.
 
@@ -38,6 +38,7 @@ E-JUST students juggle weighted assessments (class work, midterm, lab, oral, fin
 - Prerequisite checker: flags a course planned before its prerequisite (e.g. CSC 221 needs CSE 214).
 - Elective pickers driven by the elective tables (Tables 3, 5, 7, 9 in the CSC plan).
 - Graduation projection: "If I keep my current average, I graduate with X."
+- Standing alerts from the handbook: probation below a 2.00 CGPA (12-credit cap), scholarship thresholds (3.0, 2.4 for sports) and tuition discounts (3.7 and 3.85).
 
 ### Later
 - More programs (other E-JUST schools), contributed as data files.
@@ -102,7 +103,7 @@ Grades are personal data, so the defaults are conservative:
 
 ## 7. Open questions
 
-1. **Grade scale:** confirm the exact E-JUST letter boundaries and points (and how pass/fail courses like LRA 101 count) so the engine matches official transcripts. Early evidence from a real transcript: GPA/CGPA only match when F counts as 1.0 grade points, and a retaken course (marked E) replaces the earlier grade in CGPA. The engine should support both rules as config.
+1. ~~**Grade scale**~~: resolved from the CSIT Student Handbook (2024). CSIT courses pass at 60% and University Requirements/Liberal Arts at 50%. F and WF count as 1.0, W/FW/I don't count, and the most recent attempt of a repeated course counts in CGPA.
 2. **Scope:** CSC only at launch, or other programs from day one?
 3. **Accounts:** is local-only enough for launch, or is sync a must-have?
 4. **Name and domain:** keep "E-JUST GPA Manager", or pick something shorter?
