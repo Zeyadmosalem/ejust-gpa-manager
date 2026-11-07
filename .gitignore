@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.env*
+# Never commit personal grade data or transcripts
+*.transcript.json
+personal-data/
