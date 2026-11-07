@@ -2,7 +2,7 @@
 
 A free web service that helps students at the Egypt-Japan University of Science and Technology (E-JUST) track their grades, plan their degree, and see what they need to hit a target GPA.
 
-> **Status:** planning. This README is the project plan. No code yet.
+> **Status:** M0 and M1 in progress. The GPA engine lives in `packages/engine` and the CSC study plan in `data/programs/csc.json`. Run `npm install && npm test`.
 
 This is an independent student project. It is not affiliated with or endorsed by E-JUST.
 

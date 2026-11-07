@@ -1,0 +1,876 @@
+{
+  "id": "csc",
+  "name": "Computer Science (CSC)",
+  "school": "E-JUST",
+  "source": "Table 10: Study Plan of CSC Program (134 Credits)",
+  "totalCredits": 134,
+  "marksPerCredit": 100,
+  "gradeScale": "ejust",
+  "levelCredits": {
+    "1": 17,
+    "2": 17,
+    "3": 18,
+    "4": 17,
+    "5": 15,
+    "6": 18,
+    "7": 17,
+    "8": 15
+  },
+  "notes": [
+    "Elective pools (Tables 3, 5, 7, 9) are not yet transcribed.",
+    "Courses with weightsUnverified need their grading split checked against the official plan."
+  ],
+  "courses": [
+    {
+      "code": "LRA101",
+      "title": "Japanese Culture",
+      "credits": 2,
+      "level": 1,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 1
+      },
+      "examHours": null
+    },
+    {
+      "code": "LRA401",
+      "title": "Japanese Language (1)",
+      "credits": 1,
+      "level": 1,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null
+    },
+    {
+      "code": "MTH111",
+      "title": "Mathematics (1)",
+      "credits": 3,
+      "level": 1,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "PHY113",
+      "title": "Physics (1)",
+      "credits": 3,
+      "level": 1,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC111",
+      "title": "Fundamentals of Programming",
+      "credits": 3,
+      "level": 1,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (1)",
+      "credits": 2,
+      "level": 1,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "ECE111",
+      "title": "Digital Logic Design",
+      "credits": 3,
+      "level": 1,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "LRA402",
+      "title": "Japanese Language (2)",
+      "credits": 1,
+      "level": 2,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "LRA401"
+      ],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null
+    },
+    {
+      "code": "MTH121",
+      "title": "Mathematics (2)",
+      "credits": 3,
+      "level": 2,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [
+        "MTH111"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "PHY123",
+      "title": "Physics (2)",
+      "credits": 3,
+      "level": 2,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "PHY113"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC121",
+      "title": "Data Structures and Algorithms",
+      "credits": 3,
+      "level": 2,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC111"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (2)",
+      "credits": 2,
+      "level": 2,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "CSC122",
+      "title": "Advanced Programming",
+      "credits": 3,
+      "level": 2,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC111"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "LRA405",
+      "title": "Key Skill Seminar (1)",
+      "credits": 2,
+      "level": 2,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 2
+    },
+    {
+      "code": "LRA403",
+      "title": "Japanese Language (3)",
+      "credits": 1,
+      "level": 3,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "LRA402"
+      ],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (3)",
+      "credits": 2,
+      "level": 3,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "MTH212",
+      "title": "Probability and Statistics",
+      "credits": 3,
+      "level": 3,
+      "category": "basic-science",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [
+        "MTH121"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-science",
+      "title": "FR BAS Elective (1)",
+      "credits": 3,
+      "level": 3,
+      "electiveTable": "Table 5"
+    },
+    {
+      "code": "CSC211",
+      "title": "Software Engineering",
+      "credits": 3,
+      "level": 3,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-computing",
+      "title": "FR BCS Elective (1)",
+      "credits": 3,
+      "level": 3,
+      "electiveTable": "Table 7"
+    },
+    {
+      "code": "CSE214",
+      "title": "Computer Organization",
+      "credits": 3,
+      "level": 3,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "ECE111"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "LRA404",
+      "title": "Japanese Language (4)",
+      "credits": 1,
+      "level": 4,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "LRA403"
+      ],
+      "weights": {
+        "lab": 1
+      },
+      "examHours": null
+    },
+    {
+      "code": "LRA208",
+      "title": "Safety and Risk Management",
+      "credits": 2,
+      "level": 4,
+      "category": "university-requirement",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 0
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 1
+      },
+      "examHours": null
+    },
+    {
+      "slot": true,
+      "category": "university-requirement",
+      "title": "UR Elective (4)",
+      "credits": 2,
+      "level": 4,
+      "electiveTable": "Table 3"
+    },
+    {
+      "code": "CSE312",
+      "title": "Discrete Mathematics",
+      "credits": 3,
+      "level": 4,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 2,
+        "lab": 0
+      },
+      "prerequisites": [
+        "MTH121"
+      ],
+      "weights": {
+        "class": 0.3,
+        "midterm": 0.3,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-science",
+      "title": "FR BAS Elective (2)",
+      "credits": 3,
+      "level": 4,
+      "electiveTable": "Table 5"
+    },
+    {
+      "slot": true,
+      "category": "basic-computing",
+      "title": "FR BCS Elective (2)",
+      "credits": 3,
+      "level": 4,
+      "electiveTable": "Table 7"
+    },
+    {
+      "code": "CSC221",
+      "title": "Operating Systems",
+      "credits": 3,
+      "level": 4,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSE214"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CNC311",
+      "title": "Computer Networks",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "MTH212",
+        "CSC121"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "AID312",
+      "title": "Intelligent Systems",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "MTH121",
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CNC314",
+      "title": "Database Systems",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 0,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "basic-computing",
+      "title": "FR BCS Elective (3)",
+      "credits": 3,
+      "level": 5,
+      "electiveTable": "Table 7"
+    },
+    {
+      "code": "CSC314",
+      "title": "Software Modeling and Analysis",
+      "credits": 3,
+      "level": 5,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC122"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC321",
+      "title": "Software Design",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC314"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC322",
+      "title": "Requirements Analysis and Specification",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC211"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC323",
+      "title": "Software Process",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC211"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC324",
+      "title": "Human Computer Interaction",
+      "credits": 3,
+      "level": 6,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC121"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (1)",
+      "credits": 3,
+      "level": 6,
+      "electiveTable": "Table 9"
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (2)",
+      "credits": 3,
+      "level": 6,
+      "electiveTable": "Table 9"
+    },
+    {
+      "code": "CSC410",
+      "title": "Software Quality",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC323"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC411",
+      "title": "Software Verification and Validation",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC321"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC412",
+      "title": "Software Security",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC321"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "code": "CSC414",
+      "title": "Game Design and Development",
+      "credits": 3,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CSC211"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (3)",
+      "credits": 3,
+      "level": 7,
+      "electiveTable": "Table 9"
+    },
+    {
+      "code": "CSC413",
+      "title": "Graduation Project I",
+      "credits": 2,
+      "level": 7,
+      "category": "core",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 8
+      },
+      "prerequisites": [],
+      "weights": {
+        "lab": 0.7,
+        "oral": 0.3
+      },
+      "examHours": null,
+      "weightsUnverified": true
+    },
+    {
+      "code": "CSC424",
+      "title": "Graduation Project II",
+      "credits": 4,
+      "level": 8,
+      "category": "core",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 16
+      },
+      "prerequisites": [
+        "CSC413"
+      ],
+      "weights": {
+        "lab": 0.7,
+        "oral": 0.3
+      },
+      "examHours": null,
+      "weightsUnverified": true
+    },
+    {
+      "code": "CSC423",
+      "title": "Field Training (2 Modules)",
+      "credits": 5,
+      "level": 8,
+      "category": "core",
+      "hours": {
+        "lecture": 0,
+        "tutorial": 0,
+        "lab": 20
+      },
+      "prerequisites": [],
+      "weights": {
+        "class": 0.7,
+        "oral": 0.3
+      },
+      "examHours": null,
+      "weightsUnverified": true
+    },
+    {
+      "slot": true,
+      "category": "program",
+      "title": "CSC Elective (4)",
+      "credits": 3,
+      "level": 8,
+      "electiveTable": "Table 9"
+    },
+    {
+      "code": "CSC422",
+      "title": "Fundamentals of Cloud Computing",
+      "credits": 3,
+      "level": 8,
+      "category": "core",
+      "hours": {
+        "lecture": 2,
+        "tutorial": 1,
+        "lab": 2
+      },
+      "prerequisites": [
+        "CNC311"
+      ],
+      "weights": {
+        "class": 0.15,
+        "midterm": 0.3,
+        "lab": 0.15,
+        "final": 0.4
+      },
+      "examHours": 3
+    }
+  ]
+}
