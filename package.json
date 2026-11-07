@@ -1,9 +1,14 @@
 {
   "name": "ejust-gpa-manager",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
-    "test": "npm test --workspaces",
+    "dev": "npm run dev -w @ejust-gpa/web",
+    "build": "npm run build -w @ejust-gpa/web",
+    "test": "npm test -w @ejust-gpa/engine",
     "typecheck": "npm run typecheck --workspaces"
   }
 }
