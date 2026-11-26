@@ -1,7 +1,7 @@
 {
-  "name": "E-JUST GPA Manager",
-  "short_name": "E-JUST GPA",
-  "description": "Track your marks, GPA and degree progress at E-JUST. Your data stays on your device.",
+  "name": "GPilot",
+  "short_name": "GPilot",
+  "description": "GPA tracker for E-JUST students. Track your marks, GPA and degree progress at E-JUST. Your data stays on your device.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

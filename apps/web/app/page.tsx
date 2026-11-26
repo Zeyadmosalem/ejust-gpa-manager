@@ -67,7 +67,7 @@ export default function Overview() {
 
       {data.semesters.length === 0 ? (
         <section className="card welcome">
-          <h2>Welcome</h2>
+          <h2>Welcome to GPilot</h2>
           <p className="muted">
             A free GPA tracker built around the E-JUST grading rules and the CSC study plan. Here is how it works:
           </p>
