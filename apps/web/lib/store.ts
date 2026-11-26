@@ -51,7 +51,7 @@ function load(): AppData {
 export function parseData(x: unknown): AppData {
   const d = x as Partial<AppData> | null;
   if (!d || d.version !== 1 || !Array.isArray(d.semesters)) {
-    throw new Error("This file is not an E-JUST GPA Manager backup.");
+    throw new Error("This file is not a GPilot backup.");
   }
   return { ...EMPTY, ...d } as AppData;
 }

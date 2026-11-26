@@ -20,7 +20,7 @@ export function Nav() {
           <span className="brand-mark" aria-hidden>
             Σ
           </span>
-          E-JUST GPA
+          GPilot
         </Link>
         <nav aria-label="Main">
           {LINKS.map((l) => {

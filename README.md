@@ -1,4 +1,6 @@
-# E-JUST GPA Manager
+# GPilot
+
+*(formerly E-JUST GPA Manager)*
 
 A free web service that helps students at the Egypt-Japan University of Science and Technology (E-JUST) track their grades, plan their degree, and see what they need to hit a target GPA.
 
@@ -115,7 +117,7 @@ Grades are personal data, so the defaults are conservative:
 1. ~~**Grade scale**~~: resolved from the CSIT Student Handbook (2024). CSIT courses pass at 60% and University Requirements/Liberal Arts at 50%. F and WF count as 1.0, W/FW/I don't count, and the most recent attempt of a repeated course counts in CGPA.
 2. **Scope:** CSC only at launch, or other programs from day one?
 3. **Accounts:** is local-only enough for launch, or is sync a must-have?
-4. **Name and domain:** keep "E-JUST GPA Manager", or pick something shorter?
+4. ~~**Name**~~: resolved, the app is called **GPilot**. The repository keeps its name, so the URL stays the same.
 
 ## 8. Deployment
 

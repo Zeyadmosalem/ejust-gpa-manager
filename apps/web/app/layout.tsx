@@ -7,14 +7,14 @@ const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const FEEDBACK_URL = "https://github.com/Zeyadmosalem/ejust-gpa-manager/issues/new/choose";
 
 export const metadata: Metadata = {
-  title: "E-JUST GPA Manager",
+  title: "GPilot: E-JUST GPA tracker",
   description: "Track your marks, GPA and degree progress at E-JUST. Free, and your data stays on your device.",
   manifest: `${base}/manifest.webmanifest`,
   icons: {
     icon: [{ url: `${base}/icon.svg`, type: "image/svg+xml" }, { url: `${base}/icon-192.png`, sizes: "192x192" }],
     apple: `${base}/apple-touch-icon.png`,
   },
-  appleWebApp: { capable: true, title: "E-JUST GPA", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "GPilot", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {
