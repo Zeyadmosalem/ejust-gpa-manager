@@ -66,9 +66,30 @@ export default function Overview() {
       </div>
 
       {data.semesters.length === 0 ? (
-        <div className="card empty">
-          <p>No semesters yet. Add your first one below, then add courses from the CSC study plan.</p>
-        </div>
+        <section className="card welcome">
+          <h2>Welcome</h2>
+          <p className="muted">
+            A free GPA tracker built around the E-JUST grading rules and the CSC study plan. Here is how it works:
+          </p>
+          <ol>
+            <li>
+              <b>Add a semester</b> below, then add its courses from the study plan, electives included.
+            </li>
+            <li>
+              <b>Enter your marks</b> (class work, midterm, lab, oral) and see the mark you need on the final for each
+              grade, or type in your official grade.
+            </li>
+            <li>
+              <b>Plan ahead</b> with target grades, a projected CGPA and the <Link href="/tools/">target CGPA</Link>{" "}
+              calculator.
+            </li>
+          </ol>
+          <p className="muted small">
+            No account needed. Everything stays in this browser, and you can export a backup from{" "}
+            <Link href="/settings/">Data</Link>. On your phone, use &ldquo;Add to Home screen&rdquo; to use it like an app,
+            even offline.
+          </p>
+        </section>
       ) : (
         <ul className="card list list-card">
           {data.semesters.map((s, i) => {

@@ -2,7 +2,9 @@
 
 A free web service that helps students at the Egypt-Japan University of Science and Technology (E-JUST) track their grades, plan their degree, and see what they need to hit a target GPA.
 
-> **Status:** MVP (M2) in progress. The web app is in `apps/web`, the GPA engine in `packages/engine` and the CSC study plan in `data/programs/csc.json`.
+> **Live:** https://zeyadmosalem.github.io/ejust-gpa-manager/ (deployed from `main` by GitHub Actions). Works offline and can be added to a phone's home screen.
+>
+> **Status:** MVP done, launch (M3) in progress. The web app is in `apps/web`, the GPA engine in `packages/engine` and the CSC study plan in `data/programs/csc.json`.
 >
 > ```
 > npm install
@@ -115,9 +117,15 @@ Grades are personal data, so the defaults are conservative:
 3. **Accounts:** is local-only enough for launch, or is sync a must-have?
 4. **Name and domain:** keep "E-JUST GPA Manager", or pick something shorter?
 
-## 8. Contributing
+## 8. Deployment
 
-Once M0 lands: open an issue for bugs or a missing program. Program catalogs are plain JSON, so you can help without writing code.
+The site is a static export, published to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`. One-time setup: in the repository's **Settings → Pages**, set **Source** to **GitHub Actions**.
+
+To build for another sub-path, set `BASE_PATH` (for example `BASE_PATH=/ejust-gpa-manager npm run build`). Leave it unset for a site served from the domain root.
+
+## 9. Contributing
+
+[Open an issue](https://github.com/Zeyadmosalem/ejust-gpa-manager/issues/new/choose) for bugs, a missing course or your program. Program catalogs are plain JSON, so you can help without writing code.
 
 ## License
 
