@@ -6,6 +6,8 @@ A free web service that helps students at the Egypt-Japan University of Science 
 
 > **Live:** https://zeyadmosalem.github.io/ejust-gpa-manager/ (deployed from `main` by GitHub Actions). Works offline and can be added to a phone's home screen.
 >
+**[Try the demo →](https://zeyadmosalem.github.io/portfolio/demos/gpa-manager/)** (loads sample marks; everything stays in your browser)
+
 > **Status:** MVP done, launch (M3) in progress. The web app is in `apps/web`, the GPA engine in `packages/engine` and the CSC study plan in `data/programs/csc.json`.
 >
 > ```
